@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Digital Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="bi bi-hexagon-fill text-primary me-2"></i>Apex Studio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#collabs">Collabs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="nav-link btn btn-link text-decoration-none" data-bs-toggle="modal" data-bs-target="#servicesModal">Services</button>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary text-white ms-lg-2 px-3 mt-2 mt-lg-0" data-bs-toggle="modal" data-bs-target="#contactModal">Contact</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="bg-dark text-white py-5 text-center">
+        <div class="container py-5">
+            <span class="badge bg-primary mb-3 px-3 py-2">Digital Agency & Web Studio</span>
+            <h1 class="display-3 fw-bold mb-3">Build Your Modern Digital Presence</h1>
+            <p class="lead text-light mx-auto mb-4" style="max-width: 650px;">
+                We help new and growing businesses launch fast, responsive websites, custom branding, and digital strategies that attract real customers.
+            </p>
+            <div class="d-flex justify-content-center gap-3">
+                <button type="button" class="btn btn-primary btn-lg px-4" data-bs-toggle="modal" data-bs-target="#contactModal">Get Started</button>
+                <button type="button" class="btn btn-outline-light btn-lg px-4" data-bs-toggle="modal" data-bs-target="#servicesModal">View Services</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary text-white py-4">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-6 col-md-3">
+                    <h2 class="fw-bold mb-0">150+</h2>
+                    <small>Projects Completed</small>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h2 class="fw-bold mb-0">98%</h2>
+                    <small>Client Satisfaction</small>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h2 class="fw-bold mb-0">12+</h2>
+                    <small>Industry Awards</small>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h2 class="fw-bold mb-0">24/7</h2>
+                    <small>Active Support</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container py-4">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="bg-light rounded-4 p-5 text-center border shadow-sm">
+                        <i class="bi bi-building text-primary display-1 mb-3"></i>
+                        <h4 class="fw-bold">Creative Minds at Work</h4>
+                        <p class="text-muted mb-0">Innovating since 2020 with clean code and bold designs.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h6 class="text-primary fw-bold text-uppercase">About Us</h6>
+                    <h2 class="display-6 fw-bold mb-3">We Turn Bold Ideas Into Digital Reality</h2>
+                    <p class="text-muted mb-4">
+                        Apex Studio started with a simple goal: make high-end web design accessible to small businesses and startups. Our team of developers, designers, and marketers works closely with you from day one to build products that stand out.
+                    </p>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Custom mobile-first responsive layouts</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Fast loading speeds and clean code architecture</li>
+                        <li class="mb-2"><i class="bi bi-check-circle-fill text-primary me-2"></i>Dedicated project manager for every client</li>
+                    </ul>
+                    <a href="#team" class="btn btn-outline-primary">Meet Our Team</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="bg-light py-5 border-top border-bottom">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h6 class="text-primary fw-bold text-uppercase">Portfolio</h6>
+                <h2 class="fw-bold">Recent Projects</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="bg-primary text-white text-center py-5 rounded-top">
+                            <i class="bi bi-cart4 display-3"></i>
+                        </div>
+                        <div class="card-body">
+                            <span class="badge bg-light text-primary mb-2">E-Commerce</span>
+                            <h5 class="card-title fw-bold">Urban Gear Store</h5>
+                            <p class="card-text text-muted">A complete online storefront with fast checkout and inventory tracking.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="bg-dark text-white text-center py-5 rounded-top">
+                            <i class="bi bi-cup-hot display-3"></i>
+                        </div>
+                        <div class="card-body">
+                            <span class="badge bg-light text-dark mb-2">Hospitality</span>
+                            <h5 class="card-title fw-bold">Roast & Co. Cafe</h5>
+                            <p class="card-text text-muted">Interactive menu, table booking system, and local SEO optimization.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="bg-secondary text-white text-center py-5 rounded-top">
+                            <i class="bi bi-bar-chart-line display-3"></i>
+                        </div>
+                        <div class="card-body">
+                            <span class="badge bg-light text-secondary mb-2">SaaS Dashboard</span>
+                            <h5 class="card-title fw-bold">MetricFlow App</h5>
+                            <p class="card-text text-muted">Clean analytics dashboard and landing page for a tech startup.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="collabs" class="py-5 border-bottom">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h6 class="text-primary fw-bold text-uppercase">Partners</h6>
+                <h2 class="fw-bold">Our Collabs</h2>
+            </div>
+            <div class="row g-4 text-center justify-content-center">
+                
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 border-0 shadow-sm">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                            <svg width="110" height="110" viewBox="0 0 120 120" class="rounded-circle mb-3 shadow-sm">
+                                <defs>
+                                    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                                        <stop offset="50%" stop-color="#8be9fd"/>
+                                        <stop offset="50%" stop-color="#ff66d9"/>
+                                    </linearGradient>
+                                </defs>
+                                <circle cx="60" cy="60" r="60" fill="url(#starGrad)"/>
+                                <polygon points="22,42 26,52 37,52 28,58 32,68 22,62 12,68 16,58 7,52 18,52" fill="#ffe600"/>
+                                <path d="M25,45 Q75,20 105,58" fill="none" stroke="#ffe600" stroke-width="4" stroke-linecap="round"/>
+                                <text x="62" y="64" font-family="Arial Black, sans-serif" font-weight="900" font-style="italic" font-size="25" fill="#ff79c6" stroke="#ffffff" stroke-width="1.5" text-anchor="middle">STAR</text>
+                                <text x="68" y="84" font-family="Arial Black, sans-serif" font-weight="900" font-style="italic" font-size="20" fill="#ffe600" stroke="#00aaff" stroke-width="1" text-anchor="middle">CREW</text>
+                            </svg>
+                            <h5 class="card-title fw-bold mb-2">Star Crew</h5>
+                            <p class="card-text text-muted small">Official creative and community gaming collaboration partner.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 border-0 shadow-sm">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                            <svg width="110" height="110" viewBox="0 0 120 120" class="rounded-circle mb-3 shadow-sm border">
+                                <circle cx="60" cy="60" r="60" fill="#ffffff"/>
+                                <g transform="rotate(-5 60 60)" font-family="Arial Black, sans-serif" font-weight="900" font-size="21" text-anchor="middle">
+                                    <text x="20" y="62" fill="#ff1a1a" stroke="#111" stroke-width="1.5">G</text>
+                                    <text x="36" y="62" fill="#ff8000" stroke="#111" stroke-width="1.5">O</text>
+                                    <text x="52" y="62" fill="#ffd700" stroke="#111" stroke-width="1.5">O</text>
+                                    <text x="68" y="62" fill="#66cc00" stroke="#111" stroke-width="1.5">B</text>
+                                    <text x="84" y="62" fill="#00aaff" stroke="#111" stroke-width="1.5">E</text>
+                                    <text x="100" y="62" fill="#ff33cc" stroke="#111" stroke-width="1.5">R</text>
+                                </g>
+                                <line x1="20" y1="78" x2="36" y2="78" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+                                <text x="60" y="82" font-family="Arial, sans-serif" font-weight="900" font-style="italic" font-size="11" letter-spacing="2" fill="#222" text-anchor="middle">GANG</text>
+                                <line x1="84" y1="78" x2="100" y2="78" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            <h5 class="card-title fw-bold mb-2">Goober Gang</h5>
+                            <p class="card-text text-muted small">Digital media, interactive events, and entertainment partner.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 border-0 shadow-sm">
+                        <div class="card-body d-flex flex-column align-items-center justify-content-center">
+                            <svg width="110" height="110" viewBox="0 0 120 120" class="rounded-4 mb-3 shadow-sm">
+                                <rect width="120" height="120" rx="18" fill="#181818"/>
+                                <path d="M46,35 L44,20 L54,28 L60,17 L66,28 L76,20 L74,35 Z" fill="none" stroke="#ffffff" stroke-width="3" stroke-linejoin="round"/>
+                                <path d="M26,56 C12,48 8,62 24,66 C12,68 14,76 26,74" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+                                <path d="M94,56 C108,48 112,62 96,66 C108,68 106,76 94,74" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+                                <text x="60" y="75" font-family="Comic Sans MS, Chalkboard SE, sans-serif" font-weight="900" font-size="30" fill="#ffffff" text-anchor="middle">4LC</text>
+                                <path d="M26,88 Q60,84 94,88" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+                                <circle cx="88" cy="75" r="3" fill="#ffffff"/>
+                            </svg>
+                            <h5 class="card-title fw-bold mb-2">4LC</h5>
+                            <p class="card-text text-muted small">Streetwear branding, custom graphics, and design collective.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h6 class="text-primary fw-bold text-uppercase">The People</h6>
+                <h2 class="fw-bold">Meet Our Team</h2>
+            </div>
+            <div class="row g-4 text-center justify-content-center">
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 border-0 shadow-sm">
+                        <i class="bi bi-person-circle display-2 text-primary mb-3"></i>
+                        <h5 class="fw-bold mb-1">Alex Carter</h5>
+                        <p class="text-muted small mb-3">Founder & Lead Developer</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 border-0 shadow-sm">
+                        <i class="bi bi-person-circle display-2 text-primary mb-3"></i>
+                        <h5 class="fw-bold mb-1">Sarah Jenkins</h5>
+                        <p class="text-muted small mb-3">UI/UX Designer</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 border-0 shadow-sm">
+                        <i class="bi bi-person-circle display-2 text-primary mb-3"></i>
+                        <h5 class="fw-bold mb-1">Marcus Vance</h5>
+                        <p class="text-muted small mb-3">SEO & Growth Strategist</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 border-0 shadow-sm">
+                        <i class="bi bi-person-circle display-2 text-primary mb-3"></i>
+                        <h5 class="fw-bold mb-1">Saim Minhaj</h5>
+                        <p class="text-muted small mb-3">Frontend Architect</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 border-0 shadow-sm">
+                        <i class="bi bi-person-circle display-2 text-primary mb-3"></i>
+                        <h5 class="fw-bold mb-1">Eman Carter</h5>
+                        <p class="text-muted small mb-3">Creative Director</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 border-0 shadow-sm">
+                        <i class="bi bi-person-circle display-2 text-primary mb-3"></i>
+                        <h5 class="fw-bold mb-1">Xenost Canity</h5>
+                        <p class="text-muted small mb-3">Systems Engineer</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4 border-0 shadow-sm">
+                        <i class="bi bi-person-circle display-2 text-primary mb-3"></i>
+                        <h5 class="fw-bold mb-1">Pilot Z</h5>
+                        <p class="text-muted small mb-3">Product Strategist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="bg-light py-5 border-top">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h6 class="text-primary fw-bold text-uppercase">Plans</h6>
+                <h2 class="fw-bold">Simple, Transparent Pricing</h2>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="card h-100 text-center p-4 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-muted">Starter</h5>
+                            <h2 class="display-5 fw-bold my-3">$499</h2>
+                            <ul class="list-unstyled text-muted mb-4">
+                                <li class="mb-2">Single Landing Page</li>
+                                <li class="mb-2">Mobile Responsive</li>
+                                <li class="mb-2">Contact Form Setup</li>
+                                <li class="mb-2">1 Week Delivery</li>
+                            </ul>
+                            <button type="button" class="btn btn-outline-primary w-100" data-bs-toggle="modal" data-bs-target="#contactModal">Choose Starter</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 text-center p-4 shadow border-primary">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">Most Popular</span>
+                            <h5 class="fw-bold text-primary">Business</h5>
+                            <h2 class="display-5 fw-bold my-3">$999</h2>
+                            <ul class="list-unstyled text-muted mb-4">
+                                <li class="mb-2">Up to 5 Custom Pages</li>
+                                <li class="mb-2">Basic SEO Optimization</li>
+                                <li class="mb-2">Speed & Security Setup</li>
+                                <li class="mb-2">30 Days Free Support</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#contactModal">Choose Business</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container py-4" style="max-width: 800px;">
+            <h2 class="text-center fw-bold mb-4">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            How long does it take to build a website?
+                        </button>
+                    </h2>
+                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted">
+                            A standard landing page takes 5 to 7 days. Full multi-page business websites typically take 2 to 3 weeks depending on content and features.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            Will my website work on mobile phones?
+                        </button>
+                    </h2>
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted">
+                            Yes. Every website we build is 100% responsive and tested across phones, tablets, and desktop screens.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            Do you provide updates after launch?
+                        </button>
+                    </h2>
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body text-muted">
+                            Yes, we offer monthly maintenance packages or one-time updates whenever you need changes.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal fade" id="servicesModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">Our Services</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="row g-4">
+                        <div class="col-md-4">
+                            <div class="card h-100 text-center p-4 shadow-sm">
+                                <div class="card-body">
+                                    <i class="bi bi-laptop text-primary display-4 mb-3"></i>
+                                    <h5 class="card-title fw-bold">Web Design</h5>
+                                    <p class="card-text text-muted">
+                                        Clean, responsive websites built to look sharp and load fast on phones, tablets, and desktops.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 text-center p-4 shadow-sm">
+                                <div class="card-body">
+                                    <i class="bi bi-graph-up-arrow text-primary display-4 mb-3"></i>
+                                    <h5 class="card-title fw-bold">SEO & Growth</h5>
+                                    <p class="card-text text-muted">
+                                        Search engine optimization to help local and global customers find your business online.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 text-center p-4 shadow-sm">
+                                <div class="card-body">
+                                    <i class="bi bi-shield-check text-primary display-4 mb-3"></i>
+                                    <h5 class="card-title fw-bold">Site Maintenance</h5>
+                                    <p class="card-text text-muted">
+                                        Ongoing security updates, backups, and technical support so your site stays online 24/7.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="contactModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold">Contact Us</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <form id="contactForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="How can we help you?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white pt-5 pb-4 mt-auto">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-md-4">
+                    <h5 class="fw-bold mb-3"><i class="bi bi-hexagon-fill text-primary me-2"></i>Apex Studio</h5>
+                    <p class="text-muted small">Building modern, reliable digital experiences for startups and local businesses worldwide.</p>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled small">
+                        <li class="mb-2"><a href="#home" class="text-muted text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="#about" class="text-muted text-decoration-none">About Us</a></li>
+                        <li class="mb-2"><a href="#projects" class="text-muted text-decoration-none">Projects</a></li>
+                        <li class="mb-2"><a href="#collabs" class="text-muted text-decoration-none">Collabs</a></li>
+                        <li class="mb-2"><a href="#pricing" class="text-muted text-decoration-none">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="fw-bold mb-3">Follow Us</h6>
+                    <div class="d-flex gap-3">
+                        <a href="#home" class="text-white fs-5"><i class="bi bi-facebook"></i></a>
+                        <a href="#home" class="text-white fs-5"><i class="bi bi-twitter"></i></a>
+                        <a href="#home" class="text-white fs-5"><i class="bi bi-instagram"></i></a>
+                        <a href="#home" class="text-white fs-5"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-secondary">
+            <p class="text-center text-muted small mb-0">&copy; 2026 Apex Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.querySelectorAll('[data-bs-toggle="modal"]').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const target = document.querySelector(btn.getAttribute('data-bs-target'));
+                if (target && window.bootstrap) {
+                    bootstrap.Modal.getOrCreateInstance(target).show();
+                }
+            });
+        });
+
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Message sent! Thank you for contacting Apex Studio.');
+            this.reset();
+            bootstrap.Modal.getOrCreateInstance(document.getElementById('contactModal')).hide();
+        });
+    </script>
+</body>
+</html>
